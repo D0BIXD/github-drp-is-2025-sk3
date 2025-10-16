@@ -54,7 +54,7 @@ while (again == "a")
     // Výpis číselné řady
     Console.WriteLine();
     Console.WriteLine("=================================================");
-    Console.WriteLine("Výpis čslené řady:");
+    Console.WriteLine("Výpis čílené řady:");
     int current = first;
     while (current <= last) {
         Console.WriteLine(current);
