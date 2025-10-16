@@ -1,83 +1,49 @@
-﻿// string again = "a";
+﻿string again = "a";
 while (again == "a")
+
 {
     Console.Clear();
-    Console.WriteLine("************************************************");
-    Console.WriteLine("************** Výpis číselne řady **************");
-    Console.WriteLine("************************************************");
-    Console.WriteLine("************* Daniel Rocha Pinheiro ************");
-    Console.WriteLine("****************** 16.10.2025 ******************");
-    Console.WriteLine("************************************************");
+    Console.WriteLine("**************************************************");
+    Console.WriteLine("************* Součet a součin cifer **************");
+    Console.WriteLine("**************************************************");
+    Console.WriteLine("************** Daniel Rocha Pinheiro *************");
+    Console.WriteLine("******************* 16.10.2025 *******************");
+    Console.WriteLine("**************************************************");
     Console.WriteLine();
 
-    // Vstup číselné hodnoty do programu - špatné řešení
-    // Console.Write("Zadejte první číslo řady: ");
-    // int first = int.Parse(Console.ReadLine());
 
-    // Vstup číselné hodnoty do programu - lepší řešení
-    Console.Write("Zadejte první číslo řady (celé číslo): ");
-    int first;
-    while (!int.TryParse(Console.ReadLine(), out first))
+    //Vstup hodnoty do programu
+    Console.Write("Zadejte celé číslo:  ");
+    int number;
+    while (!int.TryParse(Console.ReadLine(), out number));
     {
-        Console.Write("Nezadali jste celé číslo. Zadejte první číslo řady znovu: ");
+        Console.Write("Nezadali jste celé číslo. Zadejte to znovu: ");
+
     }
 
+    int suma = 0;
+    int numberBackup = number;
+    int digit;
 
-    Console.Write("Zadejte poslední číslo řady (celé číslo): ");
-    int last;
-    while (!int.TryParse(Console.ReadLine(), out last))
+    if (number < 0)
     {
-        Console.Write("Nezadali jste celé číslo. Zadejte poslední číslo řady znovu: ");
+        number = -number;
     }
-
-
-    Console.Write("Zadejte diferenci (celé číslo): ");
-    int step;
-    while (!int.TryParse(Console.ReadLine(), out step))
+    while (number >= 10)
     {
-        Console.Write("Nezadali jste celé číslo. Zadejte difereci znovu: ");
+        digit = number % 10;
+        number = (number - digit) / 10;
+        Console.WriteLine("Zbytek = {0}", digit);
+        suma = suma + digit;
     }
 
-    //výpis zadaných hodnot
+    Console.WriteLine("poslední zbytek: {0}", number);
+
+    // musíme přičít ještě poslední cifru
+    suma = suma + number;
+
     Console.WriteLine();
-    Console.WriteLine("=================================================");
-    Console.WriteLine("Zadli jste tyto hodnoty");
-    Console.WriteLine("První číslo řady: {0}", first);
-    Console.WriteLine("Poslední čislo řady. {0}", last);
-    Console.WriteLine("Diference: {0}", step);
-    Console.WriteLine("=================================================");
-    Console.WriteLine("První číslo: {0}; Poslední číslo {1}; Diference {2}", first, last, step);
-    Console.WriteLine("=================================================");
-    Console.WriteLine();
-
-
-    // Výpis číselné řady
-    Console.WriteLine();
-    Console.WriteLine("=================================================");
-    Console.WriteLine("Výpis čílené řady:");
-    int current = first;
-    while (current <= last) {
-        Console.WriteLine(current);
-        current = current + step; // přičteme tu diferenci
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    Console.WriteLine("Součet cifer čísla {0} je {1}", numberBackup, suma);
 
 
 
