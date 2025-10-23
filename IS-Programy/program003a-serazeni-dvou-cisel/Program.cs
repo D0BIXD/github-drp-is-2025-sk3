@@ -10,34 +10,48 @@ while (again == "a")
     Console.WriteLine("************************************************");
     Console.WriteLine();
 
-    // Vstup číselné hodnoty do programu - špatné řešení
-    // Console.Write("Zadejte první číslo řady: ");
-    // int first = int.Parse(Console.ReadLine());
-
-    // Vstup číselné hodnoty do programu - lepší řešení
-    Console.Write("Zadejte první číslo řady (celé číslo): ");
-    int first;
-    while (!int.TryParse(Console.ReadLine(), out first))
+   
+    Console.Write("Zadejte celé číslo A: ");
+    int a;
+    while (!int.TryParse(Console.ReadLine(), out a))
     {
-        Console.Write("Nezadali jste celé číslo. Zadejte první číslo řady znovu: ");
+        Console.Write("Nezadali jste celé číslo. Zadejte celé číslo A: ");
     }
 
 
 
-    Console.Write("Zadejte poslední číslo řady (celé číslo): ");
-    int last;
-    while (!int.TryParse(Console.ReadLine(), out last))
+  
+    Console.Write("Zadejte celé číslo B: ");
+    int b;
+    while (!int.TryParse(Console.ReadLine(), out b))
     {
-        Console.Write("Nezadali jste celé číslo. Zadejte poslední číslo řady znovu: ");
+        Console.Write("Nezadali jste celé číslo. Zadejte celé číslo B: ");
     }
 
 
-    Console.Write("Zadejte diferenci (celé číslo): ");
-    int step;
-    while (!int.TryParse(Console.ReadLine(), out step))
+    Console.WriteLine();
+    int pom;
+    if (a > b)
     {
-        Console.Write("Nezadali jste celé číslo. Zadejte difereci znovu: ");
+        pom = a;
+        a = b;
+        b = pom;
+        Console.WriteLine("Došlo k prohození proměnných...");
+
     }
+
+    Console.Write("=================================================================\n");
+    Console.Write($"Seřazená čísla: {a}, {b} ");
+    Console.Write("\n=================================================================\n");
+
+
+
+
+
+
+
+
+
 
 
     Console.WriteLine();
