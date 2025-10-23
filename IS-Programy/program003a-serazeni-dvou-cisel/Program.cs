@@ -2,12 +2,12 @@
 while (again == "a")
 {
     Console.Clear();
-    Console.WriteLine("************************************************");
-    Console.WriteLine("************** Výpis číselne řady **************");
-    Console.WriteLine("************************************************");
-    Console.WriteLine("************* Daniel Rocha Pinheiro ************");
-    Console.WriteLine("****************** 16.10.2025 ******************");
-    Console.WriteLine("************************************************");
+    Console.WriteLine("**************************************************");
+    Console.WriteLine("*************** Řazení dvou čísel ****************");
+    Console.WriteLine("**************************************************");
+    Console.WriteLine("************** Daniel Rocha Pinheiro *************");
+    Console.WriteLine("******************* 16.10.2025 *******************");
+    Console.WriteLine("**************************************************");
     Console.WriteLine();
 
    
