@@ -108,14 +108,15 @@ Console.WriteLine(myRandNumbs[0]);
         }
         Console.WriteLine();
 }
-    for(int i = 1; i <= myRandNumbs[0] - 2; i++) 
+
+   for(int i = 1; i <= myRandNumbs[0]; i++) 
     {
-        for (int j = 1; j <= myRandNumbs[0] - 2; j++)
+        for (int j = 1; j <= myRandNumbs[0]; j++)
         {
-            Console.Write("");
-            System.Threading.Thread.Sleep(System.TimeSpan.FromMilliseconds(5));
+           Console.Write(" ");  
         }
-        Console.WriteLine();
+        
+    }     
 
 
 
@@ -143,4 +144,3 @@ Console.WriteLine("Čas potřebný na seřazení čísel pomoci BS: {0}", Stopky
 
 }
 
-}

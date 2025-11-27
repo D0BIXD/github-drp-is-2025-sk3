@@ -29,7 +29,7 @@ while (again == "a")
 
 
 
-
+    
 
     for(int i = 1; i <= height; i++) 
     {
