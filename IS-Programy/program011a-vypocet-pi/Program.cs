@@ -10,41 +10,53 @@ while (again == "a")
     Console.WriteLine("****************************************");
     Console.WriteLine();
 
-    // Vstup číselné hodnoty do programu - špatné řešení
-    // Console.Write("Zadejte první číslo řady: ");
-    // int first = int.Parse(Console.ReadLine());
-
-    // Vstup číselné hodnoty do programu - lepší řešení
+ 
+    // Vstup hodnoty do programu
     Console.Write("Zadejte první číslo řady (celé číslo): ");
     int first;
     while (!int.TryParse(Console.ReadLine(), out first))
     {
         Console.Write("Nezadali jste celé číslo. Zadejte první číslo řady znovu: ");
+    Console.Write("Zadejte přesnost (reálné číslo - čím menší hodnota, tím bude výpočet přesnější): ");
+    double presnost;
+    while(!double.TryParse(Console.ReadLine(), out presnost)) {
+        Console.Write("Nezadali jste reálné číslo, zadejte přesnost znovu: ");
+    }
+
+    double i = 1;
+    double znamenko = 1;
+    double piCtvrt = 1;
+
+    while((1/i)>=presnost) {
+        i = i + 2;
+        znamenko = -znamenko;
+        piCtvrt = piCtvrt + znamenko * (1/i);
+
+        if(znamenko==1) {
+            Console.WriteLine("Zlomek: +1/{0}; aktuální hodnota PI = {1}", i, 4 * piCtvrt);
+        }
+        else {
+            Console.WriteLine("Zlomek: -1/{0}; aktuální hodnota PI = {1}", i, 4 * piCtvrt);
+        }
     }
 
 
 
-    Console.Write("Zadejte poslední číslo řady (celé číslo): ");
-    int last;
-    while (!int.TryParse(Console.ReadLine(), out last))
-    {
-        Console.Write("Nezadali jste celé číslo. Zadejte poslední číslo řady znovu: ");
-    }
 
 
-    Console.Write("Zadejte diferenci (celé číslo): ");
-    int step;
-    while (!int.TryParse(Console.ReadLine(), out step))
-    {
-        Console.Write("Nezadali jste celé číslo. Zadejte difereci znovu: ");
-    }
+
+
+
+    Console.WriteLine("\n\n Hodnota čísla PI = {0}", 4 * piCtvrt);
+    //Console.WriteLine("\n\n Hodnota čísla PI = {0:f4}", 4 * piCtvrt)
+
+
+
+
 
 
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a");
     again = Console.ReadLine();
     
-
-
-
-}
+}}
