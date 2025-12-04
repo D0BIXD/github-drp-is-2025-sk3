@@ -10,14 +10,7 @@ while (again == "a")
     Console.WriteLine("****************************************");
     Console.WriteLine();
 
- 
-    // Vstup hodnoty do programu
-    Console.Write("Zadejte první číslo řady (celé číslo): ");
-    int first;
-    while (!int.TryParse(Console.ReadLine(), out first))
-    {
-        Console.Write("Nezadali jste celé číslo. Zadejte první číslo řady znovu: ");
-    Console.Write("Zadejte přesnost (reálné číslo - čím menší hodnota, tím bude výpočet přesnější): ");
+   Console.Write("Zadejte přesnost (reálné číslo - čím menší hodnota, tím bude výpočet přesnější): ");
     double presnost;
     while(!double.TryParse(Console.ReadLine(), out presnost)) {
         Console.Write("Nezadali jste reálné číslo, zadejte přesnost znovu: ");
@@ -39,24 +32,7 @@ while (again == "a")
             Console.WriteLine("Zlomek: -1/{0}; aktuální hodnota PI = {1}", i, 4 * piCtvrt);
         }
     }
-
-
-
-
-
-
-
-
     Console.WriteLine("\n\n Hodnota čísla PI = {0}", 4 * piCtvrt);
-    //Console.WriteLine("\n\n Hodnota čísla PI = {0:f4}", 4 * piCtvrt)
-
-
-
-
-
-
-    Console.WriteLine();
-    Console.WriteLine("Pro opakování programu stiskněte klávesu a");
+    Console.WriteLine("Pro opakování programu stiskněte klávesu a.");
     again = Console.ReadLine();
-    
-}}
+    }

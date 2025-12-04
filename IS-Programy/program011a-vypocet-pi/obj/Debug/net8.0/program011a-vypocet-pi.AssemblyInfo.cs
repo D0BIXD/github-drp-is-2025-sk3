@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("program011a-vypocet-pi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8b9fc0748d188541bd4a15593a97fd127a3b498")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3de9f917c2860a2acab4d5d55e46d193e4e1de65")]
 [assembly: System.Reflection.AssemblyProductAttribute("program011a-vypocet-pi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("program011a-vypocet-pi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
