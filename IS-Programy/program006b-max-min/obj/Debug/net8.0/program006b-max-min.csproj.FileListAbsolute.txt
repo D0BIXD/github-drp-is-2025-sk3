@@ -1,0 +1,15 @@
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\obj\Debug\net8.0\program006b-max-min.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\obj\Debug\net8.0\program006b-max-min.AssemblyInfoInputs.cache
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\obj\Debug\net8.0\program006b-max-min.AssemblyInfo.cs
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\obj\Debug\net8.0\program006b-max-min.csproj.CoreCompileInputs.cache
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\obj\Debug\net8.0\program006b-max-min.sourcelink.json
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\bin\Debug\net8.0\program006b-max-min.exe
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\bin\Debug\net8.0\program006b-max-min.deps.json
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\bin\Debug\net8.0\program006b-max-min.runtimeconfig.json
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\bin\Debug\net8.0\program006b-max-min.dll
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\bin\Debug\net8.0\program006b-max-min.pdb
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\obj\Debug\net8.0\program006b-max-min.dll
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\obj\Debug\net8.0\refint\program006b-max-min.dll
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\obj\Debug\net8.0\program006b-max-min.pdb
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\obj\Debug\net8.0\program006b-max-min.genruntimeconfig.cache
+C:\aaa\IS-2025-Sk3\github-drp-is-2025-sk3\IS-Programy\program006b-max-min\obj\Debug\net8.0\ref\program006b-max-min.dll
