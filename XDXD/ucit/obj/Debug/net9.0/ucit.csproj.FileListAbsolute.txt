@@ -1,0 +1,15 @@
+D:\IS-Programy\XDXD\ucit\bin\Debug\net9.0\ucit.exe
+D:\IS-Programy\XDXD\ucit\bin\Debug\net9.0\ucit.deps.json
+D:\IS-Programy\XDXD\ucit\bin\Debug\net9.0\ucit.runtimeconfig.json
+D:\IS-Programy\XDXD\ucit\bin\Debug\net9.0\ucit.dll
+D:\IS-Programy\XDXD\ucit\bin\Debug\net9.0\ucit.pdb
+D:\IS-Programy\XDXD\ucit\obj\Debug\net9.0\ucit.GeneratedMSBuildEditorConfig.editorconfig
+D:\IS-Programy\XDXD\ucit\obj\Debug\net9.0\ucit.AssemblyInfoInputs.cache
+D:\IS-Programy\XDXD\ucit\obj\Debug\net9.0\ucit.AssemblyInfo.cs
+D:\IS-Programy\XDXD\ucit\obj\Debug\net9.0\ucit.csproj.CoreCompileInputs.cache
+D:\IS-Programy\XDXD\ucit\obj\Debug\net9.0\ucit.sourcelink.json
+D:\IS-Programy\XDXD\ucit\obj\Debug\net9.0\ucit.dll
+D:\IS-Programy\XDXD\ucit\obj\Debug\net9.0\refint\ucit.dll
+D:\IS-Programy\XDXD\ucit\obj\Debug\net9.0\ucit.pdb
+D:\IS-Programy\XDXD\ucit\obj\Debug\net9.0\ucit.genruntimeconfig.cache
+D:\IS-Programy\XDXD\ucit\obj\Debug\net9.0\ref\ucit.dll
